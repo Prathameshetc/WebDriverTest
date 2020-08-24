@@ -17,6 +17,7 @@ public class LoginTest {
 	public void doLogIn() {
 		driver.get("http://www.google.co.in");
 		driver.manage().window().maximize();
+		System.out.println("Google Search successful");
 	}
 	
 	@AfterSuite
